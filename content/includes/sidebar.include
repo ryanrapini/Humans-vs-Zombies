@@ -1,0 +1,55 @@
+<div id="sidebar">
+    <ul>
+        <li>
+            <h2>HvZ Twitter Feed</h2>
+            <div id="bg1">
+                <div id="bg2">
+                    <script src="http://widgets.twimg.com/j/2/widget.js"></script>
+                    <script>
+                    new TWTR.Widget({
+                      version: 2,
+                      type: 'profile',
+                      rpp: 4,
+                      interval: 30000,
+                      width: 'auto',
+                      height: '150',
+                      theme: {
+                        shell: {
+                          background: 'none',
+                          color: '#ffffff'
+                        },
+                        tweets: {
+                          background: 'none',
+                          color: '#ffffff',
+                          links: '#ADBFE1'
+                        }
+                      },
+                      features: {
+                        scrollbar: false,
+                        loop: false,
+                        live: true,
+                        hashtags: true,
+                        timestamp: true,
+                        avatars: false,
+                        behavior: 'default'
+                      }
+                    }).render().setUser('CornellHvZ').start();
+                    </script>
+                </div>
+            </div>
+        </li>
+        <li>
+            <h2>Other Links</h2>
+            <div id="bg1">
+                <div id="bg2">
+                    <ul>
+                        <li><a href="http://www.facebook.com/groups/105026486273534/">Join us on Facebook!</a></li>
+                        <li><a href="http://humansvszombies.org/">Humans Vs Zombies Official Website</a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>
+<!-- end #sidebar -->

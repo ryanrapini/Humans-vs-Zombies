@@ -1,0 +1,7 @@
+# Begin password protection #
+AuthName "HvzAdmin"
+Require valid-user
+AuthUserFile "/home/users/web/b2011/ipg.instantkittenscom1/hvz/content/admin/.htpasswd"
+AuthType basic
+# End password protection #
+
